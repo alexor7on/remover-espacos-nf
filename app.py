@@ -4,7 +4,7 @@ import streamlit as st
 st.title("Remover espaços e caracteres")
 
 # Caixa de texto para entrada do número da NF
-nf_input = st.text_input("Digite o número da NF: ")
+nf_input = st.text_input("Digite um número para remover espaços e caracteres especiais: ")
 
 # Se o usuário digitar algo, remover tudo que não for número
 if nf_input:
