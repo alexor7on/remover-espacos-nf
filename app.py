@@ -9,4 +9,4 @@ nf_input = st.text_input("Digite um número para remover espaços e caracteres e
 # Se o usuário digitar algo, remover tudo que não for número
 if nf_input:
     nf_limpa = "".join(c for c in nf_input if c.isdigit())
-    st.success(f"NF apenas com números: {nf_limpa}")
+    st.success(f"Segue o número: {nf_limpa}")
